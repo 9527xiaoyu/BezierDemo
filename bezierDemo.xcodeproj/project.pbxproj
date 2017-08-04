@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4A6CA191F34117500960133 /* YWCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6CA181F34117500960133 /* YWCornerRadius.m */; };
 		A4C26E661F3304E0008D16FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C26E651F3304E0008D16FA /* main.m */; };
 		A4C26E691F3304E0008D16FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C26E681F3304E0008D16FA /* AppDelegate.m */; };
 		A4C26E6C1F3304E0008D16FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C26E6B1F3304E0008D16FA /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		A4C26E741F3304E0008D16FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C26E721F3304E0008D16FA /* LaunchScreen.storyboard */; };
 		A4C26E7F1F3304E1008D16FA /* bezierDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C26E7E1F3304E1008D16FA /* bezierDemoTests.m */; };
 		A4C26E8A1F3304E1008D16FA /* bezierDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C26E891F3304E1008D16FA /* bezierDemoUITests.m */; };
+		A4C26E991F33080E008D16FA /* displayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C26E981F33080E008D16FA /* displayView.m */; };
+		A4C26E9D1F330C30008D16FA /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C26E9C1F330C30008D16FA /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4A6CA171F34117500960133 /* YWCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWCornerRadius.h; sourceTree = "<group>"; };
+		A4A6CA181F34117500960133 /* YWCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWCornerRadius.m; sourceTree = "<group>"; };
 		A4C26E611F3304E0008D16FA /* bezierDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bezierDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C26E651F3304E0008D16FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C26E671F3304E0008D16FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		A4C26E851F3304E1008D16FA /* bezierDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bezierDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C26E891F3304E1008D16FA /* bezierDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bezierDemoUITests.m; sourceTree = "<group>"; };
 		A4C26E8B1F3304E1008D16FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C26E971F33080E008D16FA /* displayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = displayView.h; sourceTree = "<group>"; };
+		A4C26E981F33080E008D16FA /* displayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = displayView.m; sourceTree = "<group>"; };
+		A4C26E9C1F330C30008D16FA /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,10 @@
 		A4C26E631F3304E0008D16FA /* bezierDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A4A6CA171F34117500960133 /* YWCornerRadius.h */,
+				A4A6CA181F34117500960133 /* YWCornerRadius.m */,
 				A4C26E671F3304E0008D16FA /* AppDelegate.h */,
+				A4C26E9C1F330C30008D16FA /* 1.png */,
 				A4C26E681F3304E0008D16FA /* AppDelegate.m */,
 				A4C26E6A1F3304E0008D16FA /* ViewController.h */,
 				A4C26E6B1F3304E0008D16FA /* ViewController.m */,
@@ -110,6 +121,8 @@
 				A4C26E721F3304E0008D16FA /* LaunchScreen.storyboard */,
 				A4C26E751F3304E0008D16FA /* Info.plist */,
 				A4C26E641F3304E0008D16FA /* Supporting Files */,
+				A4C26E971F33080E008D16FA /* displayView.h */,
+				A4C26E981F33080E008D16FA /* displayView.m */,
 			);
 			path = bezierDemo;
 			sourceTree = "<group>";
@@ -247,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4C26E741F3304E0008D16FA /* LaunchScreen.storyboard in Resources */,
+				A4C26E9D1F330C30008D16FA /* 1.png in Resources */,
 				A4C26E711F3304E0008D16FA /* Assets.xcassets in Resources */,
 				A4C26E6F1F3304E0008D16FA /* Main.storyboard in Resources */,
 			);
@@ -274,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4C26E6C1F3304E0008D16FA /* ViewController.m in Sources */,
+				A4C26E991F33080E008D16FA /* displayView.m in Sources */,
+				A4A6CA191F34117500960133 /* YWCornerRadius.m in Sources */,
 				A4C26E691F3304E0008D16FA /* AppDelegate.m in Sources */,
 				A4C26E661F3304E0008D16FA /* main.m in Sources */,
 			);
@@ -509,6 +525,7 @@
 				A4C26E901F3304E1008D16FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C26E911F3304E1008D16FA /* Build configuration list for PBXNativeTarget "bezierDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				A4C26E931F3304E1008D16FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C26E941F3304E1008D16FA /* Build configuration list for PBXNativeTarget "bezierDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +543,7 @@
 				A4C26E961F3304E1008D16FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
